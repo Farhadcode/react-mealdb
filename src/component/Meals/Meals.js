@@ -14,7 +14,6 @@ const Meals = () => {
 
     return (
         <div>
-            <h2>Meal DB</h2>
             <div className="grid-style">
 
                 {

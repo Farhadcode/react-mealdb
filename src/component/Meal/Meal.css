@@ -1,13 +1,18 @@
 .meal-box-style{
     /* border: 1px solid gray;  */
-    box-shadow: 6px 6px 12px gray;
-    margin: 15px;
-   border-radius: 15px;
+    box-shadow: 6px 4px 12px rgb(90, 88, 88);
+    margin: 15px; 
+    border-radius: 15px;
 }
 .meal-Picture-style {
     width: 90%;
+    transition: transform 3s ease-in-out;
      margin-top: 10px; 
     padding: 10px;
+}
+.meal-Picture-style:hover{
+   
+    transform: scale(1.1) ;
 }
 .meal-detals{
     background-color: rgb(182, 216, 205); 
@@ -16,7 +21,22 @@
     border-bottom-right-radius: 15px;
    
 }
-/* .btn-section{
-    height: 40px;
-    background-color: black;
-} */
+.meal-detals button{
+    margin: 5px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size:16px ;
+    font-weight: 700;
+    background-color:#1c597a;
+    color: rgb(248, 248, 248);
+
+}
+
+.meal-detals button:hover{
+    transition: transform 3s ease-in-out;
+    background-color: rgb(255, 255, 255);
+    color: rgb(6, 246, 154)  ;
+    font-weight: 700;
+
+}

@@ -11,8 +11,8 @@ const Meal = (props) => {
                 <img className="meal-Picture-style" src={strMealThumb} alt="" sizes="" srcset="" />
             </div>
             <div className="meal-detals">
-                <h3> Name : {strMeal}</h3>
-                <h5>Category : {strCategory}</h5>
+                <h2>{strMeal}</h2>
+                <p>Category : {strCategory}</p>
                 <p>{strInstructions.slice(0, 100)}</p>
                 <h5>Price : {price}</h5>
                 <button>Add To Card</button>
